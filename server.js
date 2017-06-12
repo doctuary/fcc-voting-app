@@ -6,8 +6,7 @@ app.set('port', (process.env.PORT || 5000));
 app.set('view engine', 'pug');
 
 app.get('/', function(req, res) {    
-    res.send("Hellow world");
-    //res.render('index', {title: 'Hey', message: 'Hello there!'});
+    res.render('index', {title: 'Hey', message: 'Hello there!'});
 });
 
 app.listen(app.get('port'), function() {
