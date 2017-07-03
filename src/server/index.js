@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.send(renderApp(APP_NAME))
 })
 
-app.get(helloEndpointRoute(), (req,res) => {
+app.get(helloEndpointRoute(), (req, res) => {
   res.json({ serverMessage: `Hello from the server! (received ${req.params.num})` })
 })
 
