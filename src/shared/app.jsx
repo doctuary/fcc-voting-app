@@ -8,7 +8,7 @@ import { APP_NAME } from './config'
 import Nav from './component/nav'
 import HomePage from './component/page/home'
 import HelloPage from './component/page/hello'
-import HelloAysncPage from './component/page/hello-async'
+import HelloAsyncPage from './component/page/hello-async'
 import NotFoundPage from './component/page/not-found'
 import {
   HOME_PAGE_ROUTE,
