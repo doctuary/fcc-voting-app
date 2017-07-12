@@ -1,1 +1,2 @@
-# fcc-voting-app
+[![Build Status](https://img.shields.io/travis/doctuary/fcc-voting-app.svg?style=flat-square)](https://travis-ci.org/doctuary/fcc-voting-app)
+[![Coverage Status](https://img.shields.io/coveralls/doctuary/fcc-voting-app.svg?style=flat-square)](https://coveralls.io/github/doctuary/fcc-voting-app?branch=master)
