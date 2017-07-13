@@ -13,7 +13,7 @@ const HelloPage = () =>
     <Helmet
       title={title}
       meta={[
-        { name: 'description', content: 'A page to say hello' },
+        { name: 'description', content: 'A modified page to say hello' },
         { property: 'og:title', content: title },
       ]}
     />
